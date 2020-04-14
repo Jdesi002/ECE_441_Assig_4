@@ -1,0 +1,8 @@
+.\src\pll.vho
+.\src\REG.vhd
+.\src\MIPS_package.vhd
+.\src\hexToSevenSegmentDecoder.vhd
+.\src\memory.vhd
+.\src\MIPS.vhd
+.\src\fpga.vhd
+.\src\TestBench\fpga_TB.vhd

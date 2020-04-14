@@ -1,0 +1,16 @@
+74
+~E 1 "../src/fpga.vhd" 7 fpga
+~A 1 "../src/fpga.vhd" 25 Behavior
+~E 1 "../src/TestBench/fpga_TB.vhd" 7 fpga_tb
+~A 1 "../src/TestBench/fpga_TB.vhd" 10 TB_ARCHITECTURE
+~E 1 "../src/hexToSevenSegmentDecoder.vhd" 4 hexToSevenSegmentDecoder
+~A 1 "../src/hexToSevenSegmentDecoder.vhd" 34 behavioral
+~E 1 "../src/memory.vhd" 6 Memory
+~A 1 "../src/memory.vhd" 13 Internal
+~E 1 "../src/MIPS.vhd" 5 MIPS
+~A 1 "../src/MIPS.vhd" 13 structure
+~E 1 "../src/pll.vho" 33 pll
+~A 1 "../src/pll.vho" 43 RTL
+~E 1 "../src/REG.vhd" 5 REG
+~A 1 "../src/REG.vhd" 13 Behavioral
+~C 1 "../src/TestBench/fpga_TB.vhd" 99 testbench_for_fpga

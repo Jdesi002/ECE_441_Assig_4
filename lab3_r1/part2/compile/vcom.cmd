@@ -1,0 +1,1 @@
+-w -erf d:/My_Designs/s20/lab3_r1/part2/compile/part2.erf -d d:/My_Designs/s20/lab3_r1/part2/compile -s d:/My_Designs/s20/lab3_r1/library.cfg -j d:/My_Designs/s20/lab3_r1/part2/projlib.cfg -work part2 -dbg -e 100 -work part2 -2008 d:/My_Designs/s20/lab3_r1/part2/src/fpga.vhd 

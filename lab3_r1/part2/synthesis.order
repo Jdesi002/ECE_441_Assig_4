@@ -1,0 +1,7 @@
+i<>.\src\MIPS.vhd
+i<>.\src\MIPS_package.vhd
+i<>.\src\memory.vhd
+i<>.\src\fpga.vhd
+i<>.\src\REG.vhd
+i<>.\src\hexToSevenSegmentDecoder.vhd
+i<>.\src\pll.vho

@@ -1,0 +1,108 @@
+Active-HDL 10.5a.12.6914 2020-03-25 23:32:31
+
+Elaboration top modules:
+VHDL Configuration            testbench_for_fpga
+SystemVerilog Package         altera_lnsim_functions
+SystemVerilog Package         altera_generic_pll_functions
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Entity                                                                                  | Architecture     | Library      | Info | Compiler Version        | Compilation Options
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+fpga_tb                                                                                 | TB_ARCHITECTURE  | part2        |      | 10.5a.12.6914 (Windows) | -dbg -2008
+fpga                                                                                    | Behavior         | part2        |      | 10.5a.12.6914 (Windows) | -dbg -2008
+pll                                                                                     | RTL              | part2        |      | 10.5a.12.6914 (Windows) | -dbg -2008
+hexToSevenSegmentDecoder                                                                | behavioral       | part2        |      | 10.5a.12.6914 (Windows) | -dbg -2008
+MIPS                                                                                    | structure        | part2        |      | 10.5a.12.6914 (Windows) | -dbg -2008
+Memory                                                                                  | Internal         | part2        |      | 10.5a.12.6914 (Windows) | -dbg -2008
+cyclonev_lcell_comb                                                                     | vital_lcell_comb | cyclonev     |      | 10.5a.12.6914 (Windows) | -vendor Intel -sim_feature_tag LNL_ALTERA -93
+alt_inbuf                                                                               | behavior         | altera       |      | 10.5a.12.6914 (Windows) | -vendor Intel -93
+alt_outbuf                                                                              | behavior         | altera       |      | 10.5a.12.6914 (Windows) | -vendor Intel -93
+alt_iobuf                                                                               | behavior         | altera       |      | 10.5a.12.6914 (Windows) | -vendor Intel -93
+REG                                                                                     | Behavioral       | part2        |      | 10.5a.12.6914 (Windows) | -dbg -2008
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Verilog Module                                                                                             | Library      | Info | Compiler Version        | Compilation Options
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+altera_pll                                                                                                 | altera_lnsim |      | 10.5a.12.6914 (Windows) | -vendor Intel -sim_feature_tag LNL_ALTERA -sv2k5
+generic_pll                                                                                                | altera_lnsim |      | 10.5a.12.6914 (Windows) | -vendor Intel -sim_feature_tag LNL_ALTERA -sv2k5
+dps_pulse_gen                                                                                              | altera_lnsim |      | 10.5a.12.6914 (Windows) | -vendor Intel -sim_feature_tag LNL_ALTERA -sv2k5
+dps_extra_kick                                                                                             | altera_lnsim |      | 10.5a.12.6914 (Windows) | -vendor Intel -sim_feature_tag LNL_ALTERA -sv2k5
+dprio_init                                                                                                 | altera_lnsim |      | 10.5a.12.6914 (Windows) | -vendor Intel -sim_feature_tag LNL_ALTERA -sv2k5
+altera_pll_dps_lcell_comb                                                                                  | altera_lnsim |      | 10.5a.12.6914 (Windows) | -vendor Intel -sim_feature_tag LNL_ALTERA -sv2k5
+altera_stratixv_pll                                                                                        | altera_lnsim |      | 10.5a.12.6914 (Windows) | -vendor Intel -sim_feature_tag LNL_ALTERA -sv2k5
+altera_arriav_pll                                                                                          | altera_lnsim |      | 10.5a.12.6914 (Windows) | -vendor Intel -sim_feature_tag LNL_ALTERA -sv2k5
+altera_arriavgz_pll                                                                                        | altera_lnsim |      | 10.5a.12.6914 (Windows) | -vendor Intel -sim_feature_tag LNL_ALTERA -sv2k5
+altera_cyclonev_pll                                                                                        | altera_lnsim |      | 10.5a.12.6914 (Windows) | -vendor Intel -sim_feature_tag LNL_ALTERA -sv2k5
+protected_0dcaaf64936b7f5bb62aca7fa9ba21731bbae960a1b544d099e4e9a4d171bff4                                 | cyclonev     |      | 10.5a.12.6914 (Windows) | -vendor Intel -sim_feature_tag LNL_ALTERA -v2k
+protected_e7f4df8b85510d41efec16b3a06d600f0bc33a756960123ee44806f42b68a0c9                                 | cyclonev     |      | 10.5a.12.6914 (Windows) | -vendor Intel -sim_feature_tag LNL_ALTERA -v2k
+protected_a73acde71872ac98ec09e38cd4d098c9036bdbe8e78408e667644f7c621fd5a5                                 | cyclonev     |      | 10.5a.12.6914 (Windows) | -vendor Intel -sim_feature_tag LNL_ALTERA -v2k
+protected_b846f27f2bdcab372d460d8c295c8427206f3beca5be126afc4ba9f8e61e9c76                                 | cyclonev     |      | 10.5a.12.6914 (Windows) | -vendor Intel -sim_feature_tag LNL_ALTERA -v2k
+protected_41fb1821903fc8ecb06f7688b37a2b54a0757b5aace96f8ea0f3324e5cf95734                                 | cyclonev     |      | 10.5a.12.6914 (Windows) | -vendor Intel -sim_feature_tag LNL_ALTERA -v2k
+protected_f2bfb9b6fa80ca6979ae2bb4afd81b65a0757b5aace96f8ea0f3324e5cf95734                                 | cyclonev     |      | 10.5a.12.6914 (Windows) | -vendor Intel -sim_feature_tag LNL_ALTERA -v2k
+protected_c00b64ab5f3abc353ee1c880a32d3df4788f357b6d74b41d734f315022ae20a7                                 | cyclonev     |      | 10.5a.12.6914 (Windows) | -vendor Intel -sim_feature_tag LNL_ALTERA -v2k
+protected_33a7e6fc0ddc0283676dcd0bca16072ba0757b5aace96f8ea0f3324e5cf95734                                 | cyclonev     |      | 10.5a.12.6914 (Windows) | -vendor Intel -sim_feature_tag LNL_ALTERA -v2k
+protected_7a36e53ea79efecb92bcb12dcecd06f0a0757b5aace96f8ea0f3324e5cf95734                                 | cyclonev     |      | 10.5a.12.6914 (Windows) | -vendor Intel -sim_feature_tag LNL_ALTERA -v2k
+protected_0968811b56827608edce31f8825991ce788f357b6d74b41d734f315022ae20a7                                 | cyclonev     |      | 10.5a.12.6914 (Windows) | -vendor Intel -sim_feature_tag LNL_ALTERA -v2k
+protected_14ae29e48de95ffc66b86fd01ee144dd45b6e6987f32ab154b711a0082b51ea0                                 | cyclonev     |      | 10.5a.12.6914 (Windows) | -vendor Intel -sim_feature_tag LNL_ALTERA -v2k
+protected_5febb824be150a2222cc66c4a07f34593b41d7732744a98323ecb4e576dbdb455f1acbb66fbaae7fd49bc60f7b398a69 | cyclonev     |      | 10.5a.12.6914 (Windows) | -vendor Intel -sim_feature_tag LNL_ALTERA -v2k
+protected_42d510d61c345839e1d8e8a6f761629f092113ed78bf0d956889946ae4a1f1b3                                 | cyclonev     |      | 10.5a.12.6914 (Windows) | -vendor Intel -sim_feature_tag LNL_ALTERA -v2k
+protected_5febb824be150a2222cc66c4a07f34594abfb12fbf060734312f3ccbd4ff6f40ad17ef2525c8f7db7c28fd3f6ccef5e2 | cyclonev     |      | 10.5a.12.6914 (Windows) | -vendor Intel -sim_feature_tag LNL_ALTERA -v2k
+protected_1698efe46849d70f09cc2b0ac75994b8975aa2b0588926b7e353fa59517c42cc                                 | cyclonev     |      | 10.5a.12.6914 (Windows) | -vendor Intel -sim_feature_tag LNL_ALTERA -v2k
+protected_05dcfc13b4dd09ca4960e4051d533f883d335f816b9664e80628cbe817d72f29                                 | cyclonev     |      | 10.5a.12.6914 (Windows) | -vendor Intel -sim_feature_tag LNL_ALTERA -v2k
+protected_05dcfc13b4dd09ca4960e4051d533f88feb4059cbda0a71e2affdf6c88806804                                 | cyclonev     |      | 10.5a.12.6914 (Windows) | -vendor Intel -sim_feature_tag LNL_ALTERA -v2k
+protected_5ecfa9b6505885667d342ee051de081d711cb2b7379fe8aa5790d109e7c4d297                                 | cyclonev     |      | 10.5a.12.6914 (Windows) | -vendor Intel -sim_feature_tag LNL_ALTERA -v2k
+protected_9f64369ff39bde333a24d336ed63b9fd51f6c93556a31bd65dc26f6c91a0a07e                                 | cyclonev     |      | 10.5a.12.6914 (Windows) | -vendor Intel -sim_feature_tag LNL_ALTERA -v2k
+protected_b9d7156dd0d3ae3705d735f5871aac4592af955dd7dba7e75f0ed6b49d7eb8f8                                 | cyclonev     |      | 10.5a.12.6914 (Windows) | -vendor Intel -sim_feature_tag LNL_ALTERA -v2k
+protected_5ecfa9b6505885667d342ee051de081d990a3dc147a34d9fd6c820d45f8ecffe                                 | cyclonev     |      | 10.5a.12.6914 (Windows) | -vendor Intel -sim_feature_tag LNL_ALTERA -v2k
+protected_5ecfa9b6505885667d342ee051de081dc34c05390bb7eb334a66ed9f9c2cd829                                 | cyclonev     |      | 10.5a.12.6914 (Windows) | -vendor Intel -sim_feature_tag LNL_ALTERA -v2k
+protected_9f64369ff39bde333a24d336ed63b9fd3480872aba438710ef4eb024ca7d92ab                                 | cyclonev     |      | 10.5a.12.6914 (Windows) | -vendor Intel -sim_feature_tag LNL_ALTERA -v2k
+protected_9f64369ff39bde333a24d336ed63b9fd24907cda3f15b796b58019432cae75ef                                 | cyclonev     |      | 10.5a.12.6914 (Windows) | -vendor Intel -sim_feature_tag LNL_ALTERA -v2k
+protected_b9d7156dd0d3ae3705d735f5871aac45f478c32aede19f1b0246a4e2c500e556                                 | cyclonev     |      | 10.5a.12.6914 (Windows) | -vendor Intel -sim_feature_tag LNL_ALTERA -v2k
+protected_b9d7156dd0d3ae3705d735f5871aac45e155412f627d64c0d1bb72536b158d5e                                 | cyclonev     |      | 10.5a.12.6914 (Windows) | -vendor Intel -sim_feature_tag LNL_ALTERA -v2k
+protected_1698efe46849d70f09cc2b0ac75994b8e390216bb7d101c6988b6484d91ae95e                                 | cyclonev     |      | 10.5a.12.6914 (Windows) | -vendor Intel -sim_feature_tag LNL_ALTERA -v2k
+protected_1698efe46849d70f09cc2b0ac75994b8e8e4d26da16c3d25a26a2e9daf21c7c4                                 | cyclonev     |      | 10.5a.12.6914 (Windows) | -vendor Intel -sim_feature_tag LNL_ALTERA -v2k
+protected_4239b1d4d27b92c7a7455614b21eb3bd788f357b6d74b41d734f315022ae20a7                                 | cyclonev     |      | 10.5a.12.6914 (Windows) | -vendor Intel -sim_feature_tag LNL_ALTERA -v2k
+protected_d9eab436b22907f17da548e425a1b05a788f357b6d74b41d734f315022ae20a7                                 | cyclonev     |      | 10.5a.12.6914 (Windows) | -vendor Intel -sim_feature_tag LNL_ALTERA -v2k
+twentynm_iopll_ip                                                                                          | altera_lnsim |      | 10.5a.12.6914 (Windows) | -vendor Intel -sim_feature_tag LNL_ALTERA -sv2k5
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+SystemVerilog Package                                                                                      | Library      | Info | Compiler Version        | Compilation Options
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+altera_lnsim_functions                                                                                     | altera_lnsim |      | 10.5a.12.6914 (Windows) | -vendor Intel -sim_feature_tag LNL_ALTERA -sv2k5
+altera_generic_pll_functions                                                                               | altera_lnsim |      | 10.5a.12.6914 (Windows) | -vendor Intel -sim_feature_tag LNL_ALTERA -sv2k5
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+VHDL Configuration                                                                                         | Library      | Info | Compiler Version        | Compilation Options
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+testbench_for_fpga                                                                                         | part2        |      |                         | <unavailable>
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+VHDL Package                                                                                               | Library      | Info | Compiler Version        | Compilation Options
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+standard                                                                                                   | std          |      |                         | <unavailable>
+TEXTIO                                                                                                     | std          |      |                         | <unavailable>
+std_logic_1164                                                                                             | ieee         |      |                         | <unavailable>
+NUMERIC_STD                                                                                                | ieee         |      |                         | <unavailable>
+MIPS_package                                                                                               | part2        |      |                         | <unavailable>
+MATH_REAL                                                                                                  | ieee         |      |                         | <unavailable>
+altera_lnsim_components                                                                                    | altera_lnsim |      |                         | <unavailable>
+VITAL_Timing                                                                                               | ieee         |      |                         | <unavailable>
+VITAL_Primitives                                                                                           | ieee         |      |                         | <unavailable>
+cyclonev_atom_pack                                                                                         | cyclonev     |      |                         | <unavailable>
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Library                                                                                                    | Comment
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+altera                                                                                                     | Intel FPGA Quartus Prime Standard 18.1, ALTERA VHDL library
+altera_lnsim                                                                                               | Intel FPGA Quartus Prime Standard 18.1, ALTERA_LNSIM VHDL library
+cyclonev                                                                                                   | Intel FPGA Quartus Prime Standard 18.1, CYCLONEV VHDL library
+ieee                                                                                                       | Standard IEEE packages library
+part2                                                                                                      | None
+std                                                                                                        | Standard VHDL library
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

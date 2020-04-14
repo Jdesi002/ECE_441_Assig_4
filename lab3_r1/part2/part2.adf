@@ -1,0 +1,173 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=4
+Current Config=compile
+
+[Configurations]
+compile=part2
+
+[Library]
+part2=.\part2\part2.lib
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+RUN_MODE_SYNTH=1
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=IMPL_WITH_SYNTH
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+DVM_DISPLAY=NO
+SYNTH_STATUS=none
+IMPL_TOOL=
+SYNTH_TOOL=MV_QUARTUS_SYNTHESIS171
+CSYNTH_TOOL=
+PHYSSYNTH_TOOL=
+FAMILY=Quartus CycloneV
+IMPL_STATUS=none
+VerilogDirsChanged=0
+fileopenfolder=D:\My_Designs\s20\lab3_r1\part2\MEGA\pll_sim
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=1
+
+[$LibMap$]
+part2=.
+Active_lib=
+
+[IMPLEMENTATION]
+UCF=
+DEVICE_TECHNOLOGY_MIGRATION_LIST=
+LAST_RUN=1585089977
+
+[Groups]
+TestBench=1
+wave.asdbw=1
+wave.asdbw\current=1
+
+[SYNTHESIS]
+FAMILY=Quartus CycloneV
+DEVICE=5CSXFC6D6F31C
+SPEED=6
+TOPLEVEL=fpga
+JOB_DESCRIPTION=SynthesisTask
+JOB_SFM_RESOURCE=
+ENABLE_SIGNALTAP=0
+SERVERFARM_INCLUDE_INPUT_FILES=*.*
+SERVERFARM_EXCLUDE_INPUT_FILES=
+OVERWRITE_PROJECT=1
+AUTO_CLOSE=0
+QSF_FILE_SELECTION=synthesis/fpga.qsf
+CHECK_PROJECT_OUTPUT_DIRECTORY=0
+CHECK_OPTIMIZE_HOLD_TIMING=1
+USE_SIGNALTAP_FILE=
+ENABLE_LOGIC_ANALYZER_INTERFACE=0
+USE_LOGIC_ANALYZER_INTERFACE_FILE=
+OLD_FAMILY=Quartus CycloneV
+CHECK_IMPORT_PIN_ASSIGNMENTS=1
+IMPORT_PIN_ASSIGNMENTS=.\..\..\..\..\DE10_Standard_FB.qsf
+CHECK_GENERATE_FPGA_EXCHANGE_FILE=0
+GENERATE_FPGA_EXCHANGE_FILE=.\symbols\fpgaxchange
+BTM_IO_STANDARD=1.2V
+DEFAULT_QUARTUS_SETTINGS_FILE=C:\intelFPGA_lite\17.1\quartus\bin64\assignment_defaults.qdf
+OUTPUT_IO_TIMING_NEAR_END_VMEAS_RISE=Half Signal Swing
+OUTPUT_IO_TIMING_NEAR_END_VMEAS_FALL=Half Signal Swing
+OUTPUT_IO_TIMING_FAR_END_VMEAS_RISE=Half Signal Swing
+OUTPUT_IO_TIMING_FAR_END_VMEAS_FALL=Half Signal Swing
+LAST_RUN=1585089977
+
+[ORDER]
+Synchronize=0
+
+[Folders]
+Name3=Makefiles
+Directory3=D:\My_Designs\s20\lab3_r1\part2\
+Extension3=mak
+Name4=Memory
+Directory4=D:\My_Designs\s20\lab3_r1\part2\
+Extension4=mem;mif;hex
+Name5=Dll Libraries
+Directory5=D:\My_Designs\s20\lab3_r1\part2\
+Extension5=dll
+Name6=PDF
+Directory6=D:\My_Designs\s20\lab3_r1\part2\
+Extension6=pdf
+Name7=HTML
+Directory7=D:\My_Designs\s20\lab3_r1\part2\
+Extension7=htm;html
+Name8=ALINT-PRO Workspaces
+Directory8=D:\My_Designs\s20\lab3_r1\part2\
+Extension8=alintws
+
+[SpecTracer]
+WindowVisible=0
+
+[HierarchyViewer]
+HierarchyInformation=fpga_tb|testbench_for_fpga|1  
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/memory.vhd=-1
+/MIPS_package.vhd=-1
+/REG.vhd=-1
+/pll.vhd=-1
+/MIPS.vhd=-1
+/fpga.vhd=-1
+/hexToSevenSegmentDecoder.vhd=-1
+/pll.vho=-1
+/wave.asdb=-1
+/lab3_working.awc=-1
+TestBench/fpga_TB.vhd=-1
+TestBench/fpga_TB_runtest.do=-1
+wave.asdbw/strings.data=-1
+wave.asdbw\current/channels=-1
+wave.asdbw\current/global_info=-1
+wave.asdbw\current/names.data=-1
+wave.asdbw\current/names.index=-1
+wave.asdbw\current/pattern_lut=-1
+wave.asdbw\current/scratchpad=-1
+wave.asdbw\current/sources=-1
+wave.asdbw\current/strings.index=-1
+wave.asdbw\current/treeinfo=-1
+wave.asdbw\current/typeinfo=-1
+
+[Files.Data]
+.\src\memory.vhd=VHDL Source Code
+.\src\MIPS_package.vhd=VHDL Source Code
+.\src\REG.vhd=VHDL Source Code
+.\src\pll.vhd=VHDL Source Code
+.\src\MIPS.vhd=VHDL Source Code
+.\src\fpga.vhd=VHDL Source Code
+.\src\hexToSevenSegmentDecoder.vhd=VHDL Source Code
+.\src\pll.vho=VHDL Source Code
+.\src\wave.asdb=Accelerated Waveform File
+.\src\lab3_working.awc=Accelerated Waveform Configuration
+.\src\TestBench\fpga_TB.vhd=VHDL Test Bench
+.\src\TestBench\fpga_TB_runtest.do=Macro
+.\src\wave.asdbw\strings.data=External File
+.\src\wave.asdbw\current\channels=External File
+.\src\wave.asdbw\current\global_info=External File
+.\src\wave.asdbw\current\names.data=External File
+.\src\wave.asdbw\current\names.index=External File
+.\src\wave.asdbw\current\pattern_lut=External File
+.\src\wave.asdbw\current\scratchpad=External File
+.\src\wave.asdbw\current\sources=External File
+.\src\wave.asdbw\current\strings.index=External File
+.\src\wave.asdbw\current\treeinfo=External File
+.\src\wave.asdbw\current\typeinfo=External File
+

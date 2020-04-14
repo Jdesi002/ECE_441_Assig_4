@@ -1,0 +1,245 @@
+<config>
+    <version>
+        2.0
+    </version>
+    <comment>
+    </comment>
+    <databases>
+        <database id="">*virtual*</database>
+        <database id="LOCAL___731f7c5e83201b691300">wave.asdb</database>
+    </databases>
+    <signallists>
+        <signallist id="0">
+                AAAA1QAKwAAAAAAQAQMBBwgYCAAAOAgYDX0BFSEAAOMhB1QCAw8BAAADAWQBBHgPAAQEET9WBPgBQAUI        GAEHDT1hI+EAAC9YBAsHGw8BAQADYSfhAyNhP4wGADwKGQED4TcEAGEj4QEvQcNhBwAQHgEJASfhByNh        AAA/AQMBCgYfAQAEAwEK4yFnIQwDQAD6AQ4BGAg7AQMAAAgYBQ8BeAgHAAABHwg4BQOIDg8LAQP4CB0H        ABQhAwFvIeMDAYR8AwABAwE/AQMGAQAMAwoBAxwBJo4AEBEAAAAA
+|
+        </signallist>
+        <signallist id="1">
+                AAAANAAi1FSpAQAQHQGnAblxAn8BdwEJVVS4AQ0G1QXKBXcHbgEKBgpRXAoGuAMnjgNaAfQHyQQAEBEAAAAA
+|
+        </signallist>
+    </signallists>
+    <propertybases>
+        <propertybase id="0">
+            <propclass name="radix">
+                <property first="268435643" last="268435643">
+                10
+                </property>
+                <property first="268435880" last="268435880">
+                10
+                </property>
+                <property first="268435883" last="268435883">
+                10
+                </property>
+                <property first="268436427" last="268436427">
+                10
+                </property>
+                <property first="268436591" last="268436591">
+                10
+                </property>
+            </propclass>
+            <propclass name="mode">
+            </propclass>
+            <propclass name="notation">
+                <property first="268435643" last="268435643">
+                2
+                </property>
+                <property first="268435880" last="268435880">
+                2
+                </property>
+                <property first="268435883" last="268435883">
+                2
+                </property>
+                <property first="268436427" last="268436427">
+                2
+                </property>
+                <property first="268436591" last="268436591">
+                2
+                </property>
+            </propclass>
+            <propclass name="reverse">
+            </propclass>
+            <propclass name="bold">
+            </propclass>
+            <propclass name="row_height">
+            </propclass>
+            <propclass name="color">
+            </propclass>
+            <propclass name="compared">
+            </propclass>
+            <propclass name="analog_bounds">
+            </propclass>
+            <propclass name="fixedpoint">
+            </propclass>
+            <propclass name="floating_encoding">
+            </propclass>
+            <propclass name="floating_notation">
+            </propclass>
+            <propclass name="floating_precision">
+            </propclass>
+            <propclass name="rounding_method">
+            </propclass>
+            <propclass name="aliasname">
+            </propclass>
+        </propertybase>
+        <propertybase id="1">
+            <propclass name="radix">
+                <property first="268436067" last="268436067">
+                10
+                </property>
+                <property first="268436231" last="268436231">
+                10
+                </property>
+                <property first="268436579" last="268436579">
+                10
+                </property>
+                <property first="268436585" last="268436585">
+                10
+                </property>
+                <property first="268436591" last="268436591">
+                10
+                </property>
+            </propclass>
+            <propclass name="mode">
+                <property first="268435898" last="268435898">
+                0
+                </property>
+                <property first="268436231" last="268436231">
+                0
+                </property>
+                <property first="268436705" last="268436705">
+                0
+                </property>
+                <property first="268436709" last="268436709">
+                0
+                </property>
+            </propclass>
+            <propclass name="notation">
+                <property first="268435898" last="268435898">
+                1
+                </property>
+                <property first="268436231" last="268436231">
+                2
+                </property>
+                <property first="268436591" last="268436591">
+                2
+                </property>
+                <property first="268436705" last="268436705">
+                1
+                </property>
+                <property first="268436709" last="268436709">
+                1
+                </property>
+            </propclass>
+            <propclass name="reverse">
+            </propclass>
+            <propclass name="bold">
+                <property first="268435898" last="268435898">
+                1
+                </property>
+                <property first="268436231" last="268436231">
+                1
+                </property>
+                <property first="268436705" last="268436705">
+                1
+                </property>
+                <property first="268436709" last="268436709">
+                1
+                </property>
+            </propclass>
+            <propclass name="row_height">
+            </propclass>
+            <propclass name="color">
+                <property first="268435898" last="268435898">
+                #c000c0
+                </property>
+                <property first="268436231" last="268436231">
+                #c000c0
+                </property>
+                <property first="268436705" last="268436705">
+                #ff0400
+                </property>
+                <property first="268436709" last="268436709">
+                #ff0400
+                </property>
+                <property first="268436710" last="268436732">
+                #ffffff
+                </property>
+            </propclass>
+            <propclass name="compared">
+            </propclass>
+            <propclass name="analog_bounds">
+                <property first="268436165" last="268436165">
+                [-1,1]
+                </property>
+                <property first="268436198" last="268436198">
+                [-1,1]
+                </property>
+                <property first="268436231" last="268436231">
+                [-1,1]
+                </property>
+                <property first="268436592" last="268436592">
+                [-1,1]
+                </property>
+            </propclass>
+            <propclass name="fixedpoint">
+            </propclass>
+            <propclass name="floating_encoding">
+            </propclass>
+            <propclass name="floating_notation">
+            </propclass>
+            <propclass name="floating_precision">
+            </propclass>
+            <propclass name="rounding_method">
+            </propclass>
+            <propclass name="aliasname">
+            </propclass>
+        </propertybase>
+    </propertybases>
+    <prefbases>
+        <prefbase id="0" >
+            <pref name="End Time" value="91289363" />
+            <pref name="Start Time" value="88395723" />
+        </prefbase>
+        <prefbase id="1" >
+            <pref name="End Time" value="91289363" />
+            <pref name="Start Time" value="88395723" />
+        </prefbase>
+    </prefbases>
+    <bookmarkbases>
+        <bookmarks id="0">
+            <bookmark value="95411618"/>
+        </bookmarks>
+        <bookmarks id="1">
+            <bookmark value="95411618"/>
+        </bookmarks>
+    </bookmarkbases>
+    <cursorbases>
+        <cursors id="0">
+            <cursor value="90076644" label="Cursor 1" locked="0" />
+        </cursors>
+    </cursorbases>
+    <measurementbases>
+    </measurementbases>
+    <commentbases>
+        <comments id="0">
+        </comments>
+    </commentbases>
+    <views>
+        <view signallist="0" propertybase="0" prefbase="0" type="1" bookmarks="0" cursors="0" measurements="-1" comments="-1" />
+        <view signallist="1" propertybase="1" prefbase="1" type="1" bookmarks="1" cursors="0" measurements="-1" comments="-1" />
+    </views>
+    <virtualsources>
+        <virtualnamedrows>
+        </virtualnamedrows>
+        <virtualbuses>
+        </virtualbuses>
+        <virtualalias>
+        </virtualalias>
+        <virtualbusalias>
+        </virtualbusalias>
+        <virtualanalogalias>
+        </virtualanalogalias>
+        <virtualanalogbusalias>
+        </virtualanalogbusalias>
+        </virtualsources>
+</config>
