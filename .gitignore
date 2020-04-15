@@ -1,0 +1,10 @@
+synthesis/*
+part2/*
+log/*
+compile/*
+*.set
+*.order
+*.cfg
+*.do
+*.ini
+*.cfg
