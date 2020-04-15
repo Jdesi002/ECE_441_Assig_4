@@ -1,7 +1,7 @@
-synthesis/*
-part2/*
-log/*
-compile/*
+synthesis\*
+part2\*
+log\*
+compile\*
 *.set
 *.order
 *.cfg
